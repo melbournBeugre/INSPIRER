@@ -115,3 +115,25 @@ Toni Morrison est décédée le 5 août 2019 à l'âge de 88 ans, à New York.`,
     image: images.toni_Morrison,
   },
 ];
+
+export const videosData = [
+  {
+    title:
+      "Découvrez l'histoire d'une femme entrepreneure qui a transformé sa passion en succès.",
+    url: "https://www.youtube.com/embed/xVKzlpaZGZc?si=VxxX8j9UiBNcVXW8",
+  },
+  {
+    title:
+      "Une icône de leadership féminin partage son parcours et ses défis sur le chemin de la réussite.",
+    url: "https://www.youtube.com/embed/PIKLSPVhBHk?si=6ZeF0Qf9LdIupmK2",
+  },
+  {
+    title: `Regardez le parcours inspirant d'une icône féminine qui a marqué son domaine à jamais.`,
+    url: "https://www.youtube.com/embed/XU65YDjwyPw?si=z51pKk-KUEMOiCLs",
+  },
+  {
+    title:
+      "Un documentaire inspirant sur une femme ayant eu un impact majeur dans sa communauté.",
+    url: "https://www.youtube.com/embed/GLOz6a-iulA?si=A95mIrY5F26bYgv_",
+  },
+];
