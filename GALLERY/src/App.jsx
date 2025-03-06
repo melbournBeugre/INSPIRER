@@ -5,8 +5,8 @@ import Videos from "./components/videos";
 export default function App() {
   return (
     <div>
-      <Gallery />
       <Videos />
+      <Gallery />
     </div>
   );
 }
