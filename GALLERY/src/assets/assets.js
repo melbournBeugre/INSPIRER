@@ -1,8 +1,18 @@
+import audioEuph from "./EuphrasieYao sur France 24.m4a";
+import KadhyToure from "./Kadhy toure.jpg";
+import Kady from "./Kady.jpg";
+import Kone from "./Kone.jpeg";
+import TiaPhilomenImg from "./TiaPhilomeneImg.jpg";
+import timite from "./Timite.jpeg";
 import constance_Yai from "./constance_Yai.jpeg";
+import dele from "./dele.jpg";
+import EuphrasieYao from "./euphrasie-yaoImg2.jpg";
 import fabienne_Colas from "./fabienne_Colas.jpg";
+import KadhyToureTemoignage from "./kadhyToure-Temoignage.mp4";
 import mdm_Sakanoko2 from "./mdm_Sakanoko2.jpg";
 import mdm_Sakanoko3 from "./mdm_Sakanoko3.jpg";
 import oprah_Winfrey from "./oprah-Winfrey.jpg";
+import proviseure from "./proviseure.jpg";
 import toni_Morrison from "./toni_Morrison.jpg";
 import toure_Kadi from "./toure_Kadi.jpeg";
 import wangari_Maathai from "./wangari_Maathai.webp";
@@ -18,11 +28,19 @@ export const images = {
   wangari_Maathai,
   constance_Yai,
   mdm_Sakanoko2,
+  TiaPhilomenImg,
+  KadhyToure,
+  EuphrasieYao,
+  proviseure,
+  dele,
+  Kady,
+  Kone,
+  timite,
 };
 export const womanData = [
   {
     name: "Sakanoko Siata Ouattara",
-    fonction: "C.D.F Formation professionnelle et insertion des jeunes",
+    fonction: "C.D.P Formation professionnelle et insertion des jeunes",
     description: `
 Un parcours au service du développement
 Madame Sakanoko Siata Ouattara est une figure clé du développement de la formation professionnelle en Côte d'Ivoire. Engagée dans l’accompagnement des jeunes vers l’emploi, elle œuvre pour leur insertion à travers des programmes adaptés aux réalités du marché du travail.
@@ -57,7 +75,108 @@ Ambitions et Perspectives
 En intégrant le programme E2C, Kadidjatou a renforcé ses compétences en design et en communication visuelle. Elle aspire à développer sa carrière dans le domaine du branding et du marketing digital, en mettant son esprit créatif et sa maîtrise des outils graphiques au service d’entreprises désireuses de se démarquer.
 Toujours en quête d’évolution, elle ambitionne de lancer sa propre agence de design graphique, où elle pourra accompagner les marques dans la création de leur identité visuelle et leur stratégie de communication.
 `,
-    image: images.toure_Kadi,
+    image: images.Kady,
+  },
+  {
+    name: "Etilié Philomene",
+    fonction: "Féministe ivoirienne, auteure, Professeure",
+    description: `Constance Yaï est une féministe ivoirienne, auteure, Professeure spécialisée dans la rééducation des troubles du langage. Elle est la Fondatrice de l'Association Ivoirienne des Droits des Femmes (AIDF) et ancienne ministre de la Solidarité et de la Promotion de la Femme en Côte d’Ivoire.
+Au cours d’un voyage au Sénégal, notre Chanceline Mevowanou a rencontré Constance Yaï qui participait à une session aux côtés de plusieurs jeunes féministes du Niger, de la Côte d’ivoire et du Bénin. Dans cette conversation, elle nous parle de la naissance de son engagement féministe et de sa vision pour construire un mouvement féministe intergénérationnel en Afrique
+`,
+    image: images.proviseure,
+  },
+  {
+    name: "Essis Marie-Helène",
+    fonction: "Informaticienne Développeuse web FullStack  certifiée",
+    description: `Essis Helène est une développeuse web Full-Stack certifiée, passionnée par la création d’applications dynamiques et performantes. Avec une solide formation en informatique et plusieurs années d’expérience dans le développement web, elle a su se démarquer par son expertise technique et sa capacité à concevoir des solutions innovantes adaptées aux besoins des entreprises et des utilisateurs.
+
+Parcours académique et certifications
+Dès son plus jeune âge, [Nom] s’est intéressée aux technologies numériques et à la programmation. Elle a suivi des études en informatique, obtenant un diplôme en développement logiciel et en ingénierie informatique. Toujours avide d’apprendre, elle a poursuivi son parcours en obtenant des certifications reconnues dans le domaine du développement web Full-Stack, attestant de sa maîtrise des langages et frameworks les plus utilisés tels que JavaScript, TypeScript, React.js, Node.js, Next.js, et MongoDB.
+
+Sa volonté de perfectionnement l’a également poussée à se spécialiser dans des domaines tels que les architectures cloud, les bases de données NoSQL et SQL, ainsi que les bonnes pratiques DevOps. Grâce à ces compétences, elle est en mesure de concevoir des applications robustes et scalables répondant aux exigences des entreprises modernes.
+
+Expérience professionnelle
+Avec plusieurs années d’expérience en tant que développeuse web Full-Stack, [Nom] a travaillé sur divers projets, allant de la conception de sites vitrines interactifs à des plateformes SaaS complexes. Elle a collaboré avec des start-ups, des PME et des grandes entreprises, contribuant à l’élaboration de solutions digitales optimisées.
+
+Dans son rôle, elle maîtrise aussi bien le développement front-end, en créant des interfaces utilisateur réactives et intuitives avec React.js, Next.js et Bootstrap, que le développement back-end, où elle construit des API performantes en utilisant Node.js, Express et MongoDB. Son expertise couvre également l’intégration des bonnes pratiques en matière de sécurité web, de performance et d’accessibilité.
+
+Compétences et spécialités
+Développement Full-Stack : HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB, PostgreSQL.
+Conception d'architectures backend optimisées et scalables.
+Gestion de bases de données relationnelles et NoSQL.
+Expérience avec les outils CI/CD, Docker, Git et GitHub Actions.
+Respect des standards de sécurité, performance et accessibilité web.
+Collaboration avec des équipes Agile et utilisation de méthodologies Scrum/Kanban.
+Engagement et vision
+Au-delà de son rôle technique, [Nom] est une fervente défenseuse du partage de connaissances et de la diversité dans la tech. Elle participe régulièrement à des conférences, hackathons et meetups, où elle échange avec d’autres professionnels et contribue à la communauté des développeurs.
+
+En tant que mentore et formatrice, elle accompagne les nouveaux développeurs dans leur apprentissage, les aidant à acquérir des compétences solides et à évoluer dans un domaine en constante mutation.
+
+Conclusion
+Grâce à son expertise, son engagement et sa passion pour l’innovation, continue de repousser les limites du développement web. Sa capacité à combiner compétences techniques, esprit analytique et sens du design fait d’elle une informaticienne accomplie, prête à relever tous les défis du digital.`,
+    image: images.dele,
+  },
+  {
+    name: "Koné Siata",
+    fonction: "Informaticienne Développeuse web FullStack  certifiée",
+    description: `Koné Siata est une développeuse web Full-Stack certifiée, passionnée par la création d’applications dynamiques et performantes. Avec une solide formation en informatique et plusieurs années d’expérience dans le développement web, elle a su se démarquer par son expertise technique et sa capacité à concevoir des solutions innovantes adaptées aux besoins des entreprises et des utilisateurs.
+
+Parcours académique et certifications
+Dès son plus jeune âge,  s’est intéressée aux technologies numériques et à la programmation. Elle a suivi des études en informatique, obtenant un diplôme en développement logiciel et en ingénierie informatique. Toujours avide d’apprendre, elle a poursuivi son parcours en obtenant des certifications reconnues dans le domaine du développement web Full-Stack, attestant de sa maîtrise des langages et frameworks les plus utilisés tels que JavaScript, TypeScript, React.js, Node.js, Next.js, et MongoDB.
+
+Sa volonté de perfectionnement l’a également poussée à se spécialiser dans des domaines tels que les architectures cloud, les bases de données NoSQL et SQL, ainsi que les bonnes pratiques DevOps. Grâce à ces compétences, elle est en mesure de concevoir des applications robustes et scalables répondant aux exigences des entreprises modernes.
+
+Expérience professionnelle
+Avec plusieurs années d’expérience en tant que développeuse web Full-Stack, [Nom] a travaillé sur divers projets, allant de la conception de sites vitrines interactifs à des plateformes SaaS complexes. Elle a collaboré avec des start-ups, des PME et des grandes entreprises, contribuant à l’élaboration de solutions digitales optimisées.
+
+Dans son rôle, elle maîtrise aussi bien le développement front-end, en créant des interfaces utilisateur réactives et intuitives avec React.js, Next.js et Bootstrap, que le développement back-end, où elle construit des API performantes en utilisant Node.js, Express et MongoDB. Son expertise couvre également l’intégration des bonnes pratiques en matière de sécurité web, de performance et d’accessibilité.
+
+Compétences et spécialités
+Développement Full-Stack : HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB, PostgreSQL.
+Conception d'architectures backend optimisées et scalables.
+Gestion de bases de données relationnelles et NoSQL.
+Expérience avec les outils CI/CD, Docker, Git et GitHub Actions.
+Respect des standards de sécurité, performance et accessibilité web.
+Collaboration avec des équipes Agile et utilisation de méthodologies Scrum/Kanban.
+Engagement et vision
+Au-delà de son rôle technique, [Nom] est une fervente défenseuse du partage de connaissances et de la diversité dans la tech. Elle participe régulièrement à des conférences, hackathons et meetups, où elle échange avec d’autres professionnels et contribue à la communauté des développeurs.
+
+En tant que mentore et formatrice, elle accompagne les nouveaux développeurs dans leur apprentissage, les aidant à acquérir des compétences solides et à évoluer dans un domaine en constante mutation.
+
+Conclusion
+Grâce à son expertise, son engagement et sa passion pour l’innovation, [Nom] continue de repousser les limites du développement web. Sa capacité à combiner compétences techniques, esprit analytique et sens du design fait d’elle une informaticienne accomplie, prête à relever tous les défis du digital.`,
+    image: images.Kone,
+  },
+  {
+    name: "Timité Mariam",
+    fonction: "Informaticienne Développeuse web FullStack  certifiée  ",
+    description: `Mariam est une développeuse web Full-Stack certifiée, passionnée par la création d’applications dynamiques et performantes. Avec une solide formation en informatique et plusieurs années d’expérience dans le développement web, elle a su se démarquer par son expertise technique et sa capacité à concevoir des solutions innovantes adaptées aux besoins des entreprises et des utilisateurs.
+
+Parcours académique et certifications
+Dès son plus jeune âge, s’est intéressée aux technologies numériques et à la programmation. Elle a suivi des études en informatique, obtenant un diplôme en développement logiciel et en ingénierie informatique. Toujours avide d’apprendre, elle a poursuivi son parcours en obtenant des certifications reconnues dans le domaine du développement web Full-Stack, attestant de sa maîtrise des langages et frameworks les plus utilisés tels que JavaScript, TypeScript, React.js, Node.js, Next.js, et MongoDB.
+
+Sa volonté de perfectionnement l’a également poussée à se spécialiser dans des domaines tels que les architectures cloud, les bases de données NoSQL et SQL, ainsi que les bonnes pratiques DevOps. Grâce à ces compétences, elle est en mesure de concevoir des applications robustes et scalables répondant aux exigences des entreprises modernes.
+
+Expérience professionnelle
+Avec plusieurs années d’expérience en tant que développeuse web Full-Stack, [Nom] a travaillé sur divers projets, allant de la conception de sites vitrines interactifs à des plateformes SaaS complexes. Elle a collaboré avec des start-ups, des PME et des grandes entreprises, contribuant à l’élaboration de solutions digitales optimisées.
+
+Dans son rôle, elle maîtrise aussi bien le développement front-end, en créant des interfaces utilisateur réactives et intuitives avec React.js, Next.js et Bootstrap, que le développement back-end, où elle construit des API performantes en utilisant Node.js, Express et MongoDB. Son expertise couvre également l’intégration des bonnes pratiques en matière de sécurité web, de performance et d’accessibilité.
+
+Compétences et spécialités
+Développement Full-Stack : HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB, PostgreSQL.
+Conception d'architectures backend optimisées et scalables.
+Gestion de bases de données relationnelles et NoSQL.
+Expérience avec les outils CI/CD, Docker, Git et GitHub Actions.
+Respect des standards de sécurité, performance et accessibilité web.
+Collaboration avec des équipes Agile et utilisation de méthodologies Scrum/Kanban.
+Engagement et vision
+Au-delà de son rôle technique, [Nom] est une fervente défenseuse du partage de connaissances et de la diversité dans la tech. Elle participe régulièrement à des conférences, hackathons et meetups, où elle échange avec d’autres professionnels et contribue à la communauté des développeurs.
+
+En tant que mentore et formatrice, elle accompagne les nouveaux développeurs dans leur apprentissage, les aidant à acquérir des compétences solides et à évoluer dans un domaine en constante mutation.
+
+Conclusion
+Grâce à son expertise, son engagement et sa passion pour l’innovation, [Nom] continue de repousser les limites du développement web. Sa capacité à combiner compétences techniques, esprit analytique et sens du design fait d’elle une informaticienne accomplie, prête à relever tous les défis du digital.`,
+    image: images.timite,
   },
   {
     name: "Constance Yai",
@@ -138,3 +257,8 @@ export const videosData = [
     url: "https://www.youtube.com/embed/GLOz6a-iulA?si=A95mIrY5F26bYgv_",
   },
 ];
+
+export const audio = {
+  audioEuph,
+  KadhyToureTemoignage,
+};
