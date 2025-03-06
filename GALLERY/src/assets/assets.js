@@ -4,12 +4,13 @@ import mdm_Sakanoko2 from "./mdm_Sakanoko2.jpg";
 import mdm_Sakanoko3 from "./mdm_Sakanoko3.jpg";
 import oprah_Winfrey from "./oprah-Winfrey.jpg";
 import toni_Morrison from "./toni_Morrison.jpg";
+import toure_Kadi from "./toure_Kadi.jpeg";
 import wangari_Maathai from "./wangari_Maathai.webp";
 import yvette_Bonny from "./yvette_Bonny.jpg";
 
 export const images = {
   mdm_Sakanoko3,
-
+  toure_Kadi,
   toni_Morrison,
   yvette_Bonny,
   oprah_Winfrey,
@@ -56,7 +57,7 @@ Ambitions et Perspectives
 En intégrant le programme E2C, Kadidjatou a renforcé ses compétences en design et en communication visuelle. Elle aspire à développer sa carrière dans le domaine du branding et du marketing digital, en mettant son esprit créatif et sa maîtrise des outils graphiques au service d’entreprises désireuses de se démarquer.
 Toujours en quête d’évolution, elle ambitionne de lancer sa propre agence de design graphique, où elle pourra accompagner les marques dans la création de leur identité visuelle et leur stratégie de communication.
 `,
-    image: images.mdm_Sakanoko2,
+    image: images.toure_Kadi,
   },
   {
     name: "Constance Yai",
